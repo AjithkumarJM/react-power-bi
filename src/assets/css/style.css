@@ -1,0 +1,119 @@
+/* @import url('https://fonts.googleapis.com/css?family=Open+Sans'); */
+@font-face {
+    font-family: 'open-sans';
+    src: url('../fonts/opensans-regular/OpenSans-Regular.eot'); /* IE9 Compat Modes */
+    src: url('../fonts/opensans-regular/OpenSans-Regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('../fonts/opensans-regular/OpenSans-Regular.woff') format('woff'), /* Modern Browsers */
+    url('../fonts/opensans-regular/OpenSans-Regular.ttf') format('truetype'), /* Safari, Android, iOS */
+    url('../fonts/opensans-regular/OpenSans-Regular.svg#svgFontName') format('svg'); /* Legacy iOS */
+    font-style: normal;
+    font-weight: 400;
+    }
+
+body{
+    background-color: rgba(66, 66, 66, 0.12);
+    font-family: 'open-sans', sans-serif;
+    font-size: 13px;
+}
+
+.btn {
+    border-radius: .5rem;
+}
+.btn:hover {
+    box-shadow: 1px 2px 10px #ccc;
+}
+.btn-ems-primary {
+    background-color: #ff641e;
+    color: #fff;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: lighter;
+}
+
+.image-wrap {
+    height: 400px;
+    border-bottom: 5px solid #464a4c;
+    margin-bottom: 5%;
+    background-position: left;
+    background-size: cover;
+    /* background-color: #ff641e;
+    background-image: url(../images/2105.jpg);
+    background-blend-mode: exclusion; */
+    background-color: rgb(255, 90, 10);
+    background-image: url(../images/2105.jpg);
+    background-blend-mode: soft-light;
+}
+.login-logo {
+    width: 50%;
+    margin: 30px 0px;
+}
+.login h2 {
+    margin-bottom: 20px;
+}
+
+/* css by Aji */
+.topBodyWrap{
+    margin-top: 16px;
+}
+
+.topWrap{
+    margin-top:10px;
+}
+
+.equalPadding{
+    padding: 10px !important;
+}
+
+.btn{
+    border-radius: 0 !important;
+}
+
+.drp-dwn {
+    margin: 0px 0 0 -30px;
+}
+
+.btn-outline-dark:not([disabled]):not(.disabled).active, .btn-outline-dark:not([disabled]):not(.disabled):active, .show>.btn-outline-dark.dropdown-toggle{
+    color: white;
+    box-shadow: none !important;
+    background-color: #343a40;
+    border-color:#343a40;
+}
+
+.headerShadow{
+    box-shadow:  0 4px 5px -1px rgba(0,0,0,0.22);
+}
+
+.sample > .mainComponent > .powerbi-frame{
+    height: 495px !important;
+}
+
+/* scrollbar */
+
+::-webkit-scrollbar
+{
+  width: 4px;  /* for vertical scrollbars */
+  height: 4px; /* for horizontal scrollbars */
+}
+
+::-webkit-scrollbar-track
+{
+    border-radius: 2rem;
+  background: rgba(0, 0, 0, 0.1);
+}
+
+::-webkit-scrollbar-thumb
+{
+    border-radius: 2rem;
+  background: #2f2d2f;
+}
+
+/* scrollbar ends */
+
+.marginAdjust {
+    margin-right: 10px;
+}
+
+.padAdjust {
+    padding: 10px 0px !important;
+}
