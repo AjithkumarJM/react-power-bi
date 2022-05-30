@@ -1,2 +1,2 @@
-# React---Power-bi-Embed-
+# Embed power bi with react
 kick start Embedding power bi
